@@ -21,6 +21,7 @@ void loop() {
     }
 }
 
+//execute signals to trigger the camera ir receiver 
 void takePhoto(void) {
   int i;
   for (i = 0; i < 76; i++) {
